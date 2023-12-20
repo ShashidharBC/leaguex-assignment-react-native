@@ -1,5 +1,5 @@
-import { ScreenHeight, ScreenWidth } from "@rneui/base";
-import { ImageStyle, StyleSheet, TextStyle, ViewStyle } from "react-native";
+import {ScreenHeight, ScreenWidth} from '@rneui/base';
+import {ImageStyle, StyleSheet, TextStyle, ViewStyle} from 'react-native';
 
 export interface Style {
   container: ViewStyle;
@@ -25,39 +25,39 @@ export default StyleSheet.create<Style>({
     marginHorizontal: 40,
     marginVertical: 20,
     borderRadius: 15,
-    overflow: "hidden",
+    overflow: 'hidden',
     elevation: 10,
   },
   backgroundImage: {
-    width: "100%",
+    width: '100%',
     height: ScreenWidth / 1,
-    resizeMode: "cover",
+    resizeMode: 'cover',
   },
   textContainer: {
-    position: "absolute",
+    position: 'absolute',
     bottom: 0,
     padding: 25,
-    width: "100%",
+    width: '100%',
   },
   title: {
     fontSize: 22,
-    color: "#ffffff",
-    fontWeight: "bold",
+    color: '#ffffff',
+    fontWeight: 'bold',
     marginBottom: 5,
   },
   subtitle: {
     fontSize: 18,
-    color: "#ffffff",
-    fontWeight: "400",
+    color: '#ffffff',
+    fontWeight: '400',
     marginBottom: 5,
   },
   pstitle: {
     fontSize: 35,
-    color: "#ffffff",
+    color: '#ffffff',
     marginBottom: 5,
   },
   iconContainer: {
-    position: "absolute",
+    position: 'absolute',
     bottom: 10,
     right: 10,
   },

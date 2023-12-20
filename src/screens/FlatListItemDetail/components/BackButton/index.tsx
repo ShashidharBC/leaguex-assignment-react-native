@@ -1,12 +1,16 @@
-import { TouchableOpacity, View, Text } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
-import styles from "./styles";
+import {TouchableOpacity, View, Text, Image} from 'react-native';
+import {Ionicons} from '@expo/vector-icons';
+import styles from './styles';
+import {BACK_IMAGE} from '../../../../../assets/image';
 
-export default function BackButton({ onPress }) {
+export default function BackButton({onPress}) {
   return (
     <TouchableOpacity activeOpacity={0.7} onPress={onPress}>
       <View style={styles.container}>
-        <Ionicons name="chevron-back" size={34} color="#ffffff" />
+        <Image
+          source={BACK_IMAGE}
+          style={{width: 22, height: 22, tintColor: '#fff'}}
+        />
         <Text style={styles.titleStyle}>Back</Text>
       </View>
     </TouchableOpacity>

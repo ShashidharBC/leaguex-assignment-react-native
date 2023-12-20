@@ -1,5 +1,4 @@
-import { ScreenWidth } from "@rneui/base";
-import { ImageStyle, StyleSheet, TextStyle, ViewStyle } from "react-native";
+import {StyleSheet, ViewStyle} from 'react-native';
 
 export interface Style {
   container: ViewStyle;
@@ -8,12 +7,12 @@ export interface Style {
 
 export default StyleSheet.create<Style>({
   container: {
-    flexDirection: "row",
+    flexDirection: 'row',
     padding: 10,
   },
   rightIconsContainer: {
     flex: 0.6,
-    flexDirection: "row",
-    justifyContent: "flex-end",
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
   },
 });

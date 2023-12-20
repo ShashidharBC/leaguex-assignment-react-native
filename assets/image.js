@@ -1,6 +1,11 @@
-export const CYBER_PUNK = require("../assets/cyber_punk.jpg");
-export const GHOST = require("../assets/ghost.jpeg");
-export const THE_LOST_OF_US = require("../assets/theLost.jpg");
-export const PREDATOR = require("../assets/predator.jpeg");
-export const AVENGERS = require("../assets/avengers.jpeg");
-export const DOOM = require("../assets/doom.jpeg");
+export const CYBER_PUNK = require('../assets/cyber_punk.jpg');
+export const GHOST = require('../assets/ghost.jpeg');
+export const THE_LOST_OF_US = require('../assets/theLost.jpg');
+export const PREDATOR = require('../assets/predator.jpeg');
+export const AVENGERS = require('../assets/avengers.jpeg');
+export const DOOM = require('../assets/doom.jpeg');
+export const IOS_MENU = require('../assets/ios-menu-3.png');
+export const SEARCH_IMAGE = require('../assets/search-2.png');
+export const SHOPING_CART = require('../assets/shoping-cart-4.png');
+export const GAME_CONTROLLER = require('../assets/letter-l-icon.png');
+export const BACK_IMAGE = require('../assets/back.png');
